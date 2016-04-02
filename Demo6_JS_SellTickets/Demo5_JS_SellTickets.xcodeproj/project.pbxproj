@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF435B3B1C9BCADF0083034A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435B3A1C9BCADF0083034A /* main.m */; };
+		CF435B3E1C9BCADF0083034A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435B3D1C9BCADF0083034A /* AppDelegate.m */; };
+		CF435B411C9BCADF0083034A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435B401C9BCADF0083034A /* ViewController.m */; };
+		CF435B441C9BCADF0083034A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF435B421C9BCADF0083034A /* Main.storyboard */; };
+		CF435B471C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF435B451C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodeld */; };
+		CF435B491C9BCADF0083034A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF435B481C9BCADF0083034A /* Assets.xcassets */; };
+		CF435B4C1C9BCADF0083034A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF435B4A1C9BCADF0083034A /* LaunchScreen.storyboard */; };
+		CF435B571C9BCAE00083034A /* Demo5_JS_SellTicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435B561C9BCAE00083034A /* Demo5_JS_SellTicketsTests.m */; };
+		CF435B621C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435B611C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF435B531C9BCAE00083034A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF435B2E1C9BCADF0083034A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF435B351C9BCADF0083034A;
+			remoteInfo = Demo5_JS_SellTickets;
+		};
+		CF435B5E1C9BCAE00083034A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF435B2E1C9BCADF0083034A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF435B351C9BCADF0083034A;
+			remoteInfo = Demo5_JS_SellTickets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF435B361C9BCADF0083034A /* Demo5_JS_SellTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo5_JS_SellTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF435B3A1C9BCADF0083034A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF435B3C1C9BCADF0083034A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF435B3D1C9BCADF0083034A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF435B3F1C9BCADF0083034A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF435B401C9BCADF0083034A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF435B431C9BCADF0083034A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF435B461C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo5_JS_SellTickets.xcdatamodel; sourceTree = "<group>"; };
+		CF435B481C9BCADF0083034A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF435B4B1C9BCADF0083034A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF435B4D1C9BCADF0083034A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF435B521C9BCAE00083034A /* Demo5_JS_SellTicketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo5_JS_SellTicketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF435B561C9BCAE00083034A /* Demo5_JS_SellTicketsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo5_JS_SellTicketsTests.m; sourceTree = "<group>"; };
+		CF435B581C9BCAE00083034A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF435B5D1C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo5_JS_SellTicketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF435B611C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo5_JS_SellTicketsUITests.m; sourceTree = "<group>"; };
+		CF435B631C9BCAE00083034A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF435B331C9BCADF0083034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435B4F1C9BCAE00083034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435B5A1C9BCAE00083034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF435B2D1C9BCADF0083034A = {
+			isa = PBXGroup;
+			children = (
+				CF435B381C9BCADF0083034A /* Demo5_JS_SellTickets */,
+				CF435B551C9BCAE00083034A /* Demo5_JS_SellTicketsTests */,
+				CF435B601C9BCAE00083034A /* Demo5_JS_SellTicketsUITests */,
+				CF435B371C9BCADF0083034A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF435B371C9BCADF0083034A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF435B361C9BCADF0083034A /* Demo5_JS_SellTickets.app */,
+				CF435B521C9BCAE00083034A /* Demo5_JS_SellTicketsTests.xctest */,
+				CF435B5D1C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF435B381C9BCADF0083034A /* Demo5_JS_SellTickets */ = {
+			isa = PBXGroup;
+			children = (
+				CF435B3C1C9BCADF0083034A /* AppDelegate.h */,
+				CF435B3D1C9BCADF0083034A /* AppDelegate.m */,
+				CF435B3F1C9BCADF0083034A /* ViewController.h */,
+				CF435B401C9BCADF0083034A /* ViewController.m */,
+				CF435B421C9BCADF0083034A /* Main.storyboard */,
+				CF435B481C9BCADF0083034A /* Assets.xcassets */,
+				CF435B4A1C9BCADF0083034A /* LaunchScreen.storyboard */,
+				CF435B4D1C9BCADF0083034A /* Info.plist */,
+				CF435B451C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodeld */,
+				CF435B391C9BCADF0083034A /* Supporting Files */,
+			);
+			path = Demo5_JS_SellTickets;
+			sourceTree = "<group>";
+		};
+		CF435B391C9BCADF0083034A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF435B3A1C9BCADF0083034A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF435B551C9BCAE00083034A /* Demo5_JS_SellTicketsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF435B561C9BCAE00083034A /* Demo5_JS_SellTicketsTests.m */,
+				CF435B581C9BCAE00083034A /* Info.plist */,
+			);
+			path = Demo5_JS_SellTicketsTests;
+			sourceTree = "<group>";
+		};
+		CF435B601C9BCAE00083034A /* Demo5_JS_SellTicketsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF435B611C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.m */,
+				CF435B631C9BCAE00083034A /* Info.plist */,
+			);
+			path = Demo5_JS_SellTicketsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF435B351C9BCADF0083034A /* Demo5_JS_SellTickets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF435B661C9BCAE00083034A /* Build configuration list for PBXNativeTarget "Demo5_JS_SellTickets" */;
+			buildPhases = (
+				CF435B321C9BCADF0083034A /* Sources */,
+				CF435B331C9BCADF0083034A /* Frameworks */,
+				CF435B341C9BCADF0083034A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo5_JS_SellTickets;
+			productName = Demo5_JS_SellTickets;
+			productReference = CF435B361C9BCADF0083034A /* Demo5_JS_SellTickets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF435B511C9BCAE00083034A /* Demo5_JS_SellTicketsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF435B691C9BCAE00083034A /* Build configuration list for PBXNativeTarget "Demo5_JS_SellTicketsTests" */;
+			buildPhases = (
+				CF435B4E1C9BCAE00083034A /* Sources */,
+				CF435B4F1C9BCAE00083034A /* Frameworks */,
+				CF435B501C9BCAE00083034A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF435B541C9BCAE00083034A /* PBXTargetDependency */,
+			);
+			name = Demo5_JS_SellTicketsTests;
+			productName = Demo5_JS_SellTicketsTests;
+			productReference = CF435B521C9BCAE00083034A /* Demo5_JS_SellTicketsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF435B5C1C9BCAE00083034A /* Demo5_JS_SellTicketsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF435B6C1C9BCAE00083034A /* Build configuration list for PBXNativeTarget "Demo5_JS_SellTicketsUITests" */;
+			buildPhases = (
+				CF435B591C9BCAE00083034A /* Sources */,
+				CF435B5A1C9BCAE00083034A /* Frameworks */,
+				CF435B5B1C9BCAE00083034A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF435B5F1C9BCAE00083034A /* PBXTargetDependency */,
+			);
+			name = Demo5_JS_SellTicketsUITests;
+			productName = Demo5_JS_SellTicketsUITests;
+			productReference = CF435B5D1C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF435B2E1C9BCADF0083034A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF435B351C9BCADF0083034A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF435B511C9BCAE00083034A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF435B351C9BCADF0083034A;
+					};
+					CF435B5C1C9BCAE00083034A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF435B351C9BCADF0083034A;
+					};
+				};
+			};
+			buildConfigurationList = CF435B311C9BCADF0083034A /* Build configuration list for PBXProject "Demo5_JS_SellTickets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF435B2D1C9BCADF0083034A;
+			productRefGroup = CF435B371C9BCADF0083034A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF435B351C9BCADF0083034A /* Demo5_JS_SellTickets */,
+				CF435B511C9BCAE00083034A /* Demo5_JS_SellTicketsTests */,
+				CF435B5C1C9BCAE00083034A /* Demo5_JS_SellTicketsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF435B341C9BCADF0083034A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435B4C1C9BCADF0083034A /* LaunchScreen.storyboard in Resources */,
+				CF435B491C9BCADF0083034A /* Assets.xcassets in Resources */,
+				CF435B441C9BCADF0083034A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435B501C9BCAE00083034A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435B5B1C9BCAE00083034A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF435B321C9BCADF0083034A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435B411C9BCADF0083034A /* ViewController.m in Sources */,
+				CF435B3E1C9BCADF0083034A /* AppDelegate.m in Sources */,
+				CF435B3B1C9BCADF0083034A /* main.m in Sources */,
+				CF435B471C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435B4E1C9BCAE00083034A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435B571C9BCAE00083034A /* Demo5_JS_SellTicketsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435B591C9BCAE00083034A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435B621C9BCAE00083034A /* Demo5_JS_SellTicketsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF435B541C9BCAE00083034A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF435B351C9BCADF0083034A /* Demo5_JS_SellTickets */;
+			targetProxy = CF435B531C9BCAE00083034A /* PBXContainerItemProxy */;
+		};
+		CF435B5F1C9BCAE00083034A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF435B351C9BCADF0083034A /* Demo5_JS_SellTickets */;
+			targetProxy = CF435B5E1C9BCAE00083034A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF435B421C9BCADF0083034A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF435B431C9BCADF0083034A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF435B4A1C9BCADF0083034A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF435B4B1C9BCADF0083034A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF435B641C9BCAE00083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF435B651C9BCAE00083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF435B671C9BCAE00083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo5_JS_SellTickets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo5-JS-SellTickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF435B681C9BCAE00083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo5_JS_SellTickets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo5-JS-SellTickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF435B6A1C9BCAE00083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo5_JS_SellTicketsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo5-JS-SellTicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo5_JS_SellTickets.app/Demo5_JS_SellTickets";
+			};
+			name = Debug;
+		};
+		CF435B6B1C9BCAE00083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo5_JS_SellTicketsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo5-JS-SellTicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo5_JS_SellTickets.app/Demo5_JS_SellTickets";
+			};
+			name = Release;
+		};
+		CF435B6D1C9BCAE00083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo5_JS_SellTicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo5-JS-SellTicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo5_JS_SellTickets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF435B6E1C9BCAE00083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo5_JS_SellTicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo5-JS-SellTicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo5_JS_SellTickets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF435B311C9BCADF0083034A /* Build configuration list for PBXProject "Demo5_JS_SellTickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435B641C9BCAE00083034A /* Debug */,
+				CF435B651C9BCAE00083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF435B661C9BCAE00083034A /* Build configuration list for PBXNativeTarget "Demo5_JS_SellTickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435B671C9BCAE00083034A /* Debug */,
+				CF435B681C9BCAE00083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF435B691C9BCAE00083034A /* Build configuration list for PBXNativeTarget "Demo5_JS_SellTicketsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435B6A1C9BCAE00083034A /* Debug */,
+				CF435B6B1C9BCAE00083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF435B6C1C9BCAE00083034A /* Build configuration list for PBXNativeTarget "Demo5_JS_SellTicketsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435B6D1C9BCAE00083034A /* Debug */,
+				CF435B6E1C9BCAE00083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF435B451C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF435B461C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodel */,
+			);
+			currentVersion = CF435B461C9BCADF0083034A /* Demo5_JS_SellTickets.xcdatamodel */;
+			path = Demo5_JS_SellTickets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF435B2E1C9BCADF0083034A /* Project object */;
+}
